@@ -13,7 +13,7 @@ const {  RichText, InspectorControls, ColorPalette, MediaUpload, InnerBlocks } =
 registerBlockType("nhsblocks/heroblock", {
     title: __("Hero Block", "nhsblocks"),
     description: __("Full width zone, designed to go at the top of your page with an optional image background," +
-        " texta area and call to action", "nhsblocks"),
+        " text area and call to action", "nhsblocks"),
     category: "nhsblocks",
     icon: "schedule",
     attributes: {
